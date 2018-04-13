@@ -1,0 +1,50 @@
+header {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  min-width: 1300px;
+  height: 75px;
+  background: url(../img/header-bg.png) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+header .header-left {
+  float: left;
+  height: 100%;
+  line-height: 75px;
+  margin-left: 17px;
+}
+header .header-left h1,
+header .header-left p {
+  display: inline;
+  color: #fff;
+  font-size: 24px;
+}
+header .header-left p {
+  font-size: 16px;
+}
+header .header-right {
+  float: right;
+  margin-right: 20px;
+}
+header .header-right span {
+  line-height: 75px;
+  color: #fff;
+}
+header .header-right span b {
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  background: url(../img/psw.png) no-repeat;
+  background-size: cover;
+  vertical-align: sub;
+  margin-left: 20px;
+  margin-right: 9px;
+}
+header .header-right span a {
+  color: #fff;
+}
+header .header-right span:last-child b {
+  background-image: url(../img/quit.png);
+  height: 18px;
+}

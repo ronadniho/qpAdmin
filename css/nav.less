@@ -1,0 +1,44 @@
+@white: #fff;
+nav {
+  position: relative;
+  z-index:100;
+  width: 100%;
+  min-width: 1300px;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #2d9a2d;
+  dl, dt, dd, ul {
+    float: left;
+    color: @white;
+    line-height: 50px;
+  }
+  dl {
+    dd {
+      a {
+        color: @white;
+        padding: 0 7px;
+        border-right: 1px solid @white;
+      }
+
+    }
+    dd:last-child {
+      a {
+        border-right: 0;
+      }
+    }
+  }
+  form,ul {
+    float: right;
+    li {
+      float: left;
+      span{
+        margin-left:23px;
+        margin-right:8px;
+      }
+      .form-control{
+        display:inline-block;
+        width: auto;
+      }
+    }
+  }
+}

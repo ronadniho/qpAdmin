@@ -1,0 +1,43 @@
+nav {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  min-width: 1300px;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #2d9a2d;
+}
+nav dl,
+nav dt,
+nav dd,
+nav ul {
+  float: left;
+  color: #fff;
+  line-height: 50px;
+}
+nav dl dd a {
+  color: #fff;
+  padding: 0 7px;
+  border-right: 1px solid #fff;
+}
+nav dl dd:last-child a {
+  border-right: 0;
+}
+nav form,
+nav ul {
+  float: right;
+}
+nav form li,
+nav ul li {
+  float: left;
+}
+nav form li span,
+nav ul li span {
+  margin-left: 23px;
+  margin-right: 8px;
+}
+nav form li .form-control,
+nav ul li .form-control {
+  display: inline-block;
+  width: auto;
+}

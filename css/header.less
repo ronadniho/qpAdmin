@@ -1,0 +1,52 @@
+@white:#fff;
+header{
+  position: relative;
+  z-index:100;
+  width:100%;
+  min-width:1300px;
+  height:75px;
+  background:url(../img/header-bg.png) no-repeat;
+  background-size:cover;
+  overflow: hidden;
+  .header-left{
+    float: left;
+    height:100%;
+    line-height: 75px;
+    margin-left:17px;
+    h1,p{
+      display: inline;
+      color:@white;
+      font-size:24px;
+    }
+    p{
+      font-size:16px;
+    }
+  }
+  .header-right{
+    float:right;
+    margin-right:20px;
+    span{
+      line-height: 75px;
+      color:@white;
+      b{
+        display: inline-block;
+        width:18px;
+        height:20px;
+        background:url(../img/psw.png) no-repeat;
+        background-size:cover;
+        vertical-align: sub;
+        margin-left:20px;
+        margin-right:9px;
+      }
+      a{
+        color:@white;
+      }
+    }
+    span:last-child{
+      b{
+        background-image:url(../img/quit.png);
+        height:18px;
+      }
+    }
+  }
+}

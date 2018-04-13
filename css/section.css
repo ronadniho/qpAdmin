@@ -1,0 +1,84 @@
+/*主页main*/
+section.main {
+  position: relative;
+  top: -125px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-width: 1300px;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 145px 15px 0;
+}
+section.main div.aside {
+  float: left;
+  width: 32.33%;
+  height: 97%;
+  background-color: #fff;
+}
+section.main div.aside .pos {
+  padding: 0 16px;
+}
+section.main div.aside .pos .title {
+  width: 100%;
+  border-bottom: 3px solid #2e9a2d;
+  padding: 17px 0 4px;
+  display: table;
+  content: '';
+  clear: both;
+}
+section.main div.aside .pos .title div.title-left {
+  float: left;
+}
+section.main div.aside .pos .title div.title-left em {
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  background: url(../img/book.png) no-repeat;
+  background-size: 16px 18px;
+  vertical-align: sub;
+  margin-right: 10px;
+}
+section.main div.aside .pos .title div.title-left b {
+  color: #2e9a2d;
+  font-size: 14px;
+}
+section.main div.aside .pos .title div.title-left span {
+  font-size: 14px;
+  color: #626262;
+  margin-left: 17px;
+}
+section.main div.aside .pos .title a.title-right {
+  float: right;
+  color: #999;
+}
+section.main div.aside .pos .aside-content li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+section.main div.aside .pos .aside-content li a {
+  display: inline-block;
+  color: #666;
+  line-height: 37px;
+  font-size: 14px;
+  width: 79%;
+}
+section.main div.aside .pos .aside-content li a:nth-child(2) {
+  width: 21%;
+  color: #a8a8a8;
+}
+section.main div.containe {
+  margin: 0 1.5%;
+  background-color: rgba(255, 255, 255, 0);
+}
+section.main div.containe .middle {
+  height: 48%;
+  background-color: #fff;
+  overflow: hidden;
+}
+section.main div.containe p {
+  height: 4%;
+  background-color: transparent;
+}
