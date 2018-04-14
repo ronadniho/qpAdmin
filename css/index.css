@@ -127,7 +127,7 @@ section.main {
   height: 100%;
   min-width: 1300px;
   background: url(../img/bg.jpg) no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   box-sizing: border-box;
   padding: 145px 15px 0;
 }
@@ -139,6 +139,8 @@ section.main div.aside {
 }
 section.main div.aside .pos {
   padding: 0 16px;
+  height: 100%;
+  overflow: hidden;
 }
 section.main div.aside .pos .title {
   width: 100%;
@@ -201,4 +203,18 @@ section.main div.containe .middle {
 section.main div.containe p {
   height: 4%;
   background-color: transparent;
+}
+section.main div.aside-right .echart #pie,
+section.main div.aside-right .echart #bar {
+  height: 220px;
+  width: 49%;
+  display: inline-block;
+}
+section.main div.aside-right .echart-data .data {
+  margin-bottom: 7px;
+}
+section.main div.aside-right .echart-data .data p {
+  line-height: 22px;
+  color: #626262;
+  font-size: 12px;
 }
